@@ -4,7 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../scss/index.scss" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <!-- Create a div for keys -->
+
+    <div class="keys">
+      <div data-key="65" class="key">
+        <kbd>A</kbd>
+        <span class="sound">air_blower</span>
+      </div>
+
+      <div data-key="67" class="key">
+        <kbd>C</kbd>
+        <span class="sound">crumbling</span>
+      </div>
+
+      <div data-key="32" class="key">
+        <kbd>Space</kbd>
+        <span class="sound">fax_call</span>
+      </div>
+
+      <div data-key="13" class="key">
+        <kbd>Enter</kbd>
+        <span class="sound">spinning_coin</span>
+      </div>
+
+      <div data-key="9" class="key">
+        <kbd>Tab</kbd>
+        <span class="sound">Spraying</span>
+      </div>
+
+      <div data-key="88" class="key">
+        <kbd>X</kbd>
+        <span class="sound">zipper_bag</span>
+      </div>
+    </div>
+
+    <!-- Audio source wav -->
+
+    <audio data-key="65" src="../.wav/air_blower_1.wav"></audio>
+    <audio data-key="67" src="../.wav/crumbling.wav"></audio>
+    <audio data-key="32" src="../.wav/fax_call.wav"></audio>
+    <audio data-key="13" src="../.wav/spinning_coin_1.wav"></audio>
+    <audio data-key="9" src="../.wav/spinning_coin_1.wav"></audio>
+    <audio data-key="88" src="../.wav/zipper_bag_1.wav"></audio>
+  </body>
+  <script src="../JS/index.js"></script>
 </html>
