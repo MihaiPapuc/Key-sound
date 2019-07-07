@@ -1,0 +1,48 @@
+$color: #fff;
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('../background/sound-effect.svg');
+  background-size: auto auto;
+}
+
+.keys {
+  align-items: center;
+  justify-content: center;
+  margin-top: 250px;
+  margin-left: 300px;
+  display: block;
+}
+.key {
+  transition: all 0.05s;
+  display: inline-block;
+  color: $color;
+  font-size: 30px;
+  border: 1px solid #f4f4f4;
+  padding: 8px;
+  margin: 3px;
+  text-align: center;
+  box-shadow: 0 0 4px #f4f4f4;
+  background-color: rgba(#9995ff, 0.8);
+}
+
+kbd {
+  font-family: Oswald;
+  color: $color;
+  display: block;
+  font-size: 40px;
+  text-align: center;
+}
+.playing {
+  transform: scale(1.1);
+  box-shadow: 0 0 4px #000;
+  background-color: rgba(#9995ff, 1);
+}
+.sound {
+  text-transform: uppercase;
+}
